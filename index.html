@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/links/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+    <script src="assets/scripts/same.js" defer></script>
+    <script src="assets/scripts/script.js" defer></script>
+    <title>Movflx</title>
+</head>
+<body>
+    <div class="move-up-btn">
+        <button class="move-up-button">
+            <i class="bi bi-arrow-up-short"></i>
+        </button>
+    </div>
+    <div class="close-navbar">
+        <i class="bi bi-x-lg"></i>
+    </div>
+    <section class="section--1" id="section--1">
+            <div class="container">
+                <header class="header">
+                    <div class="header-left-part">
+                        <div class="header-logo">
+                            <img class="logo" src="assets/img/logo.png" alt="logo">
+                        </div>
+                        <div class="header-logo-active header-logo">
+                            <img class="logo" src="assets/img/logo.png" alt="logo">
+                        </div>
+                    </div>
+                    <nav class="navbar">
+                        <ul class="nav-links">
+                            <li class="nav-item"><a href="index.html" class="nav-link nav-link-active">home</a></li>
+                            <li class="nav-item"><a href="movie.html" class="nav-link">movie</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">pricing</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">blog</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">contacts</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header-right-part">
+                        <div class="navbar-search">
+                            <i class="bi bi-search"></i>
+                        </div>
+                        <div class="navbar-languages">
+                            <i class="bi bi-globe"></i>
+                            <select class="languages">
+                                <option value="en">EN</option>
+                                <option value="au">AU</option>
+                                <option value="ar">AR</option>
+                                <option value="tu">TU</option>
+                            </select>
+                        </div>
+                        <div class="navbar-register">
+                            <a href="#" class="sign-in">sign in</a>
+                        </div>
+                    </div>
+                    <div class="hamburger-icon">
+                        <i class="bi bi-list"></i>
+                    </div>
+                </header>
+
+                <div class="section-1-content">
+                    <div class="section-1-descr">
+                        <div class="section-1-title">
+                            <p>Movflx</p>
+                        </div>
+                        <div class="section-1-header">
+                            <h1>Unlimited <span>Movie</span>, TVs Shows, & More.</h1>
+                        </div>
+                        <div class="section-1-movie-info">
+                            <ul>
+                                <li class="quality">
+                                    <span class="pg">pg 18</span>
+                                    <span class="hd">hd</span>
+                                </li>
+                                <li class="ganre">
+                                    <span>Romance, </span>
+                                    <span>Drama</span>
+                                </li>
+                                <li class="date">
+                                    <i class="bi bi-calendar"></i>
+                                    <span class="movie-date">2021</span>
+                                </li>
+                                <li class="duration">
+                                    <i class="bi bi-alarm"></i>
+                                    <span class="movie-duration">128 min</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="watch-movie">
+                            <a href="#">
+                                <i class="bi bi-play"></i>
+                                <span class="watch-movie">watch now</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="section--2" id="section--2">
+        <div class="container">
+            <div class="section-2-content">
+                <div class="section-2-top">
+                    <div class="section-2-top-left">
+                        <span class="streaming">online streaming</span>
+                        <h2 class="section-2-name">Upcoming Movies</h2>
+                    </div>
+                    <div class="section-2-top-right">
+                        <ul class="section-2-top-right-movie-ganre">
+                            <li class="section-2-ganre">
+                                <a class="section-2-gemre-item section-2-genre-active" href="#">Popular</a>
+                            </li>
+                            <li class="section-2-ganre">
+                                <a class="section-2-gemre-item" href="#">highest Rated</a>
+                            </li>
+                            <li class="section-2-ganre">
+                                <a class="section-2-gemre-item" href="#">Kids</a>
+                            </li>
+                            <li class="section-2-ganre">
+                                <a class="section-2-gemre-item" href="#">Drama</a>
+                            </li>
+                        </ul>
+                        <div class="section-2-change-movie-item">
+                            <button class="change-movie-item section-2-btn-left"><</button>
+                            <button class="change-movie-item section-2-btn-right">></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-2-bottom">
+                    <div class="section-2-swiper">
+                        <div class="swiper upcoming-movie-swiper">
+                            <div class="swiper-wrapper upcoming-movie-wrapper"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section--3" id="section--3">
+        <div class="container">
+            <div class="section-3-content">
+                <div class="section-3-left">
+                    <div class="section-3-left-image">
+                        <img src="assets/img/services_img.jpg" alt="">
+                    </div>
+                    <div class="section-3-left-download">
+                        <button class="download">Download <i class="bi bi-download"></i></button>
+                    </div>
+                </div>
+                <div class="section-3-right">
+                    <div class="section-3-right-top">
+                        <span class="straight-line"></span>
+                        <span class="our-service">Our services</span>
+                    </div>
+                    <div class="section-3-right-header">
+                        <h2>Download Your Shows Watch Offline.</h2>
+                    </div>
+                    <div class="section-3-right-descr">
+                        <p>Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.</p>
+                    </div>
+                    <div class="section-3-right-list">
+                        <ul>
+                            <li class="section-3-list-item-first">
+                                <div class="section-3-list-left">
+                                    <div class="section-3-list-left-item">
+                                        <i class="bi bi-tv"></i>
+                                    </div>
+                                </div>
+                                <div class="section-3-list-right">
+                                    <div class="section-3-list-right-header">
+                                        <h6>Enjoy on Your TV.</h6>
+                                    </div>
+                                    <div class="section-3-list-right-descr">
+                                        <p>Lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="section-3-list-item-second">
+                                <div class="section-3-list-left">
+                                    <div class="section-3-list-left-item">
+                                        <i class="bi bi-camera-reels-fill"></i>
+                                    </div>
+                                </div>
+                                <div class="section-3-list-right">
+                                    <div class="section-3-list-right-header">
+                                        <h6>Enjoy on Your TV.</h6>
+                                    </div>
+                                    <div class="section-3-list-right-descr">
+                                        <p>Lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section--4" id="section--4">
+        <div class="container">
+            <div class="setion-4-content">
+                <div class="section-4-left">
+                    <div class="section-4-left-top">
+                        <span class="straight-line"></span>
+                        <span class="online-streaming">online streaming</span>
+                    </div>
+                    <div class="section-4-left-header">
+                        <h3>Live Movie & TV Shows For Friends & Family</h3>
+                    </div>
+                    <div class="section-4-left-descr">
+                        <p>Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.</p>
+                    </div>
+                    <div class="section-4-left-customers">
+                        <p>
+                            <span class="active-user-num" data-value="20">0</span>K+ <br>
+                            Active Customer
+                        </p>
+                    </div>
+                    <div class="section-4-left-watch-movie">
+                        <a href="#">
+                            <i class="bi bi-play-fill"></i>
+                            watch now
+                        </a>
+                    </div>
+                </div>
+                <div class="section-4-right">
+                    <img src="assets/img/family-watch-movie.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section--5" id="section--5">
+        <div class="container">
+            <div class="section-5-content">
+                <div class="section-5-left">
+                    <div class="section-5-left-header">
+                        <h3>TRIAL START FIRST 30 DAYS.</h3>
+                    </div>
+                    <div class="section-5-left-descr">
+                        <p>Enter your email to create or restart your membership.</p>
+                    </div>
+                </div>
+                <div class="section-5-right">
+                    <input type="text" placeholder="Enter your email">
+                    <button class="get-started-btn">get started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-top-first">
+                    <div class="footer-top-first-left">
+                        <img src="assets/img/logo.png" alt="logo">
+                    </div>
+                    <div class="footer-top-first-right">
+                        <ul class="footer-top-links">
+                            <li class="footer-top-first-item">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="footer-top-first-item">
+                                <a href="#">MOVIE</a>
+                            </li>
+                            <li class="footer-top-first-item">
+                                <a href="#">Pages</a>
+                            </li>
+                            <li class="footer-top-first-item">
+                                <a href="#">pricing</a>
+                            </li>
+                            <li class="footer-top-first-item footer-top-first-input">
+                                <input type="text" placeholder="Find Favorite Movie">
+                                <i class="bi bi-search"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-top-second">
+                    <ul class="footer-top-second-links">
+                        <li class="footer-top-second-item"><a class="footer-top-second-link" href="#">faq</a></li>
+                        <li class="footer-top-second-item"><a class="footer-top-second-link" href="#">help center</a></li>
+                        <li class="footer-top-second-item"><a class="footer-top-second-link" href="#">terms of use</a></li>
+                        <li class="footer-top-second-item"><a class="footer-top-second-link" href="#">privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <p>Copyright © 2021. All Rights Reserved By <span>Movflx</span></p>
+    </div>
+</body>
+</html>

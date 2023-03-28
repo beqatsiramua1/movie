@@ -1,0 +1,138 @@
+.movie-section--1 {
+    position: relative;
+    height: 60rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/breadcrumb_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.movie-section-1-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+}
+
+.movie-section-1-content h1 {
+    font-size: 5rem;
+    color: var(--color-white);
+}
+
+.movie-section-1-content h1 span {
+    color: var(--color-yellow);
+}
+
+/* SECTION 2 */
+.movie-section--2 {
+    padding: 10rem 0;
+    background: url("../img/section--4-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.movie-section-2-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movie-section-2-left p {
+    font-size: 1.6rem;
+    color: var(--color-yellow);
+    text-transform: uppercase;
+}
+
+.movie-section-2-left h2 {
+    color: var(--color-white);
+    font-size: 4rem;
+}
+
+.movie-section-2-right .movie-genres {
+    display: flex;
+    list-style: none;
+}
+
+.movie-genre-item {
+    margin: 0 1rem;
+}
+
+.movie-genre {
+    text-decoration: none;
+    padding: 1.3rem 3rem;
+    border-radius: 100rem;
+    color: var(--color-text-gray);
+    font-size: 1.3rem;
+    background-color: var(--color-btn-background);
+    border: 1px solid var(--color-border);
+    font-weight: bold;
+}
+
+.movie-genre-active {
+    border: 2px solid var(--color-yellow);
+}
+
+.movie-section-2-bottom {
+    margin-top: 7rem;
+}
+
+.movie-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.movie-image img {
+    width: 30rem;
+    height: 45rem;
+}
+
+.movie-descr {
+    padding: 1rem;
+}
+
+.movie-descr-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.movie-name h6 {
+    color: var(--color-white);
+    font-size: 2rem;
+    width: 25rem;
+}
+
+.movie-release-date p {
+    color: var(--color-yellow);
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.movie-descr-bottom {
+    margin-top: .4rem;
+}
+
+.movie-review p {
+    color: var(--color-yellow);
+    font-size: 1.5rem;
+}
+
+.movie {
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 833px) {
+    .movie-section-2-top {
+        flex-direction: column;
+    }
+
+    .movie-section-2-right .movie-genres {
+        margin-top: 4rem;
+    }
+}
